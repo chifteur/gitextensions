@@ -425,10 +425,6 @@ namespace GitCommands
             }
         }
 
-        public static int RevisionGraphWidth { get; set; }
-
-        public static float RevisionGraphThickness { get; set; }
-
         private static Encoding _encoding;
         public static Encoding Encoding
         {
