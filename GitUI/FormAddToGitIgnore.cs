@@ -49,6 +49,7 @@ namespace GitUI
         private void UpdatePreviewPanel()
         {
             Preview.DataSource = GitCommandHelpers.GetFiles(FilePattern.Text);
+            noMatchPanel.Visible = (Preview.Items.Count == 0);
         }
 
         private void FilePattern_TextChanged(object sender, EventArgs e)
