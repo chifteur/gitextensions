@@ -102,6 +102,8 @@ namespace GitUI.Hotkey
 
         private void ControlHotkeys_Load(object sender, EventArgs e)
         {
+            if (DesignMode)
+                return;
             ReloadSettings();
         }
 
