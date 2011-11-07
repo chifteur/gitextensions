@@ -2262,7 +2262,7 @@ namespace GitUI
                     private readonly List<int> countStart = new List<int>();
                     private readonly List<Edge> edges = new List<Edge>();
 
-                    private readonly Graph.LaneInfo emptyItem;
+                    private readonly Graph.LaneInfo emptyItem = new Graph.LaneInfo();
 
                     public List<Edge> EdgeList
                     {
