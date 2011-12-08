@@ -977,7 +977,13 @@
           <Value>Решить конфликты</Value>
         </TranslationItem>
         <TranslationItem Name="Merge" Property="Text">
-          <Value>Слиять удаленную и локальную ветки</Value>
+          <Value>Объединить удаленную и локальную ветки (merge)</Value>
+        </TranslationItem>
+        <TranslationItem Name="Rebase" Property="Text">
+          <Value>Переставить локальную ветку над удалённой (rebase)</Value>
+        </TranslationItem>
+        <TranslationItem Name="Fetch" Property="Text">
+          <Value>Только получить удалённую ветку, не объединяя с локальной (fetch)</Value>
         </TranslationItem>
         <TranslationItem Name="groupBox1" Property="Text">
           <Value>Опции слияния</Value>
